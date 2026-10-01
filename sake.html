@@ -3,4 +3,4 @@ fetch('sake_base.html').then(r=>r.text()).then(html=>{
 html=html.replace('<div class="brand">鮨 磯</div>','<div class="brand"><a href="index.html" style="color:inherit;text-decoration:none;cursor:pointer">鮨 磯</a></div>');
 document.open();document.write(html);document.close();
 }).catch(()=>{document.body.innerHTML='<p style="color:white;background:black;padding:30px">ページを読み込めませんでした。</p>'});
-<\/script></body></html>
+</script></body></html>
